@@ -1,1 +1,30 @@
-<h1>Header</h1>
+<div class="wrapper">
+  <div class="content content-max-width">
+    <div class="logo">
+      <img [src]="logo" alt="Logotipo do Itaú BBA">
+    </div>
+
+    <div class="language-and-user-data">
+
+      <div class="language-data">{{ language }}</div>
+
+      <div class="separator"></div>
+
+      <div class="user-data">
+
+        <div class="avatar">{{ user.avatar }}</div>
+
+        <div class="user">
+          <div class="fullname">{{ user.fullname }}</div>
+          <div class="role">{{ user.role }}</div>
+        </div>
+
+      </div>
+
+      <div class="toggle-options">
+        <mat-icon>expand_more</mat-icon>
+      </div>
+
+    </div>
+  </div>
+</div>

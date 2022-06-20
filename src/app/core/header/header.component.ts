@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-  title = 'Header';
+
+  logo = 'https://plataformafasttrade.com.br/wp-content/uploads/2019/09/itau-bba.png';
+  language = 'PT';
+  user = { avatar: '', fullname: 'John Doe', role: 'Diretor Itaú BBA' };
 }
