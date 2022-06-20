@@ -4,9 +4,15 @@ import { Component } from '@angular/core';
   selector: 'bhc-root',
   template: `
     <div>
-      <bhc-header></bhc-header>
-      <h1>{{ title }}</h1>
-      <bhc-footer></bhc-footer>
+      <header>
+        <bhc-header></bhc-header>
+      </header>
+      <main>
+        <h1>{{ title }}</h1>
+      </main>
+      <footer>
+        <bhc-footer></bhc-footer>
+      </footer>
     </div>
   `,
 })
